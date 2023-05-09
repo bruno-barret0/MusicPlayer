@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="/CSS/style.css">
+</head>  
+</body>
+<div class="music-container">
+<h2 id="title" > Music Player </h2> 
+<img id="capa-musica" alt = "Disc Over." > </img>
+<audio id="musica"  ></audio>
+<div id="abaixo-da-capa"> 
+    <div id="inf-musica">
+<div id="nomemusica" ></div>
+<div id="name-band" class="cor-da-banda" ></div>
+</div>
+<button id="like" class="botao cor-da-banda"><i class="bi bi-suit-heart bi-suit-heart-fill"></i></button>
+</div>
+<div id="progresscontainer">
+<div id="barra">
+<div id="progress"></div>
+<div id="timebox">
+<divv id="songtime">00:00:00</divv>
+<div id="totaltime">00:00:00</div>
+</div>
+</div>
+</div>
+<div id="botoes">
+<button id="random" class="botao"><i class="bi bi-shuffle"></i></button>       
+<button id="previous" class="botao navegar"><i class="bi bi-skip-backward"></i></button>
+<button id="play" class="botao botao-gigante"><i class="bi bi-play-circle"></i></button>
+<button id="next" class="botao navegar"><i class="bi bi-skip-forward"></i></button>
+<button id="repeat" class="botao"><i class="bi bi-repeat"></i></button>
+</div>
+<script src="/JS/script.js"></script>
+</body>
+</html>
