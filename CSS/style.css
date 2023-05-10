@@ -3,7 +3,7 @@ body {
         rgb(59,88,93),
         rgb(29, 40, 42)
     );
-    height: 100vh;
+    height: 100%;
     color: rgb(0, 0, 0);
     font-family: sans-serif;
     display: flex;
@@ -87,4 +87,34 @@ button {
 }
 .ativarlike {
     color: white;
+}
+@media(max-width: 1300px){
+    .corpo{
+        width: 1200px;
+    }
+}
+@media(max-heigth: 1100px){
+    .corpo{
+        height: 1000px;
+    }
+}
+@media(max-width: 1500px){
+    .corpo{
+        width: 1300px;
+    }
+}
+@media(max-heigth: 1100){
+    .corpo{
+        height: 1000px;
+    }
+}
+@media(max-width: 1400px){
+    .corpo{
+        width: 1200px;
+    }
+}
+@media(max-heigth: 900){
+    .corpo{
+        height: 700px;
+    }
 }
